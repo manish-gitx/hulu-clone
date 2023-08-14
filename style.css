@@ -301,6 +301,10 @@ li{
     .br{
         display: none;
     }
+    #text-lo{
+        padding: 0px 0px;
+
+    }
 
     .live {
         padding: 30px;
