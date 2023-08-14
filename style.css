@@ -133,8 +133,6 @@ article{
 .info{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     gap: 20px;
 }
@@ -144,7 +142,6 @@ article{
     color: #fff;
 }
 .text-in{
-        max-width: 850px;
         margin-bottom: 40px;
         font-size: 24px;
     }
@@ -224,6 +221,10 @@ li{
         height: auto;
         text-align: center;
     }
+    .center p{
+        display: none
+        ;
+    }
 
    
     .center {
@@ -292,7 +293,13 @@ li{
     }
 
     .text-in {
-        font-size: 18px;
+       
+            font-size: 20px;
+            padding: 0px 20px;
+        }
+    
+    .br{
+        display: none;
     }
 
     .live {
@@ -300,7 +307,7 @@ li{
     }
 
     .live-text {
-        padding: 40px 60px;
+        padding: 20px 10px;
     }
 
     .sub-text {
@@ -313,17 +320,19 @@ li{
     }
 
     footer {
-        padding: 30px 0;
+        padding: 30px;
     }
 
     .f-container {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 15px;
-        padding: 20px;
+        justify-items: flex-start;
+        padding: 0px;
     }
 
     .icons {
-        margin: 20px 0;
+        margin: 0px 0px;
+        padding: 20px 0px;
     }
 }
 
